@@ -21,31 +21,41 @@ export function Contacto() {
     return (
         <>
             <section id='contacto' className='w-full h-screen flex justify-center items-center'>
-                <div className='w-9/12 h-5/6 flex justify-center items-center shadow-2xl rounded-3xl backdrop-blur-sm sombraImagen
+                <div className='w-11/12 h-5/6 flex justify-center items-center shadow-2xl rounded-3xl backdrop-blur-sm sombraImagen
                 md:w-10/12
                 '>
                     <div className="w-2/4 h-5/6 grid place-items-center
+                    cl:h-full cl:text-center
                     sm:h-full
                     ">
                         <h2 className='text-3xl font-bold sombraTexto text-red-600
+                        cl:text-xl
                         xl:text-5xl
                         '>Contacto</h2>
                         <form ref={form} onSubmit={sendEmail} className='w-full flex justify-center items-center flex-col'>
-                            <div className='flex justify-center items-start flex-col w-4/5 mt-5 mb-5'>
+                            <div className='
+                            cl:items-center cl:w-full
+                            flex justify-center items-start flex-col w-4/5 mt-5 mb-5'>
                                 <label for="txtNombreCompleto" className='text-white
-                                
+                                cl:text-xs
                                 xl:text-2xl
                                 '>Nombre Completo</label>
                                 <input type='text' className='text-white w-full border-0 bg-transparent border-b-2 border-solid border-white focus:border-white' name='user_name' required></input>
                             </div>
-                            <div className='flex justify-center items-start flex-col w-4/5 mt-5 mb-5'>
+                            <div className='
+                             cl:items-center cl:w-full
+                            flex justify-center items-start flex-col w-4/5 mt-5 mb-5'>
                                 <label for="txtCorreo" className='text-white
+                                 cl:text-xs
                                 xl:text-2xl
                                 '>Correo Electronico</label>
                                 <input type='email' className='text-white w-full border-0 bg-transparent border-b-2 border-solid border-white focus:border-white' name='user_email' required></input>
                             </div>
-                            <div className='flex justify-center items-start flex-col w-4/5 mt-5 mb-5'>
+                            <div className='
+                             cl:items-center cl:w-full
+                            flex justify-center items-start flex-col w-4/5 mt-5 mb-5'>
                                 <label for="txtMensaje" className='text-white
+                                 cl:text-xs
                                 xl:text-2xl
                                 '>Mensaje</label>
                                 <textarea name='message' required className='text-white resize-none w-full border-0 bg-transparent border-b-2 border-solid border-white focus:border-white'></textarea>
@@ -53,13 +63,14 @@ export function Contacto() {
                             <div className='mt-5 mb-5
                             sm:mt-2 sm:mb-2
                             '>
-                                <input type='submit' value="Send Email" id="button" className='cursor-pointer sombraImagen w-28 h-10 bg-orange-500 rounded-full text-white
+                                <input type='submit' value="Enviar" id="button" className='cursor-pointer sombraImagen w-28 h-10 bg-orange-500 rounded-full text-white
                                 sm:w-28
                                 '></input>
                             </div>
                         </form>
                     </div>
                     <div className="w-2/4 h-5/6 flex justify-center items-start flex-col
+                    cl:hidden
                     sm:h-full sm:items-start
                     ">
                         <h2 className='font-bold text-5xl text-orange-500 sombraTexto

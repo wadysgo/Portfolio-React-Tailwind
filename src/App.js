@@ -8,6 +8,7 @@ import { Footer } from './Components/footer/footer';
 
 import $ from 'jquery';
 
+
 export function App(){
     return(
         <>  
