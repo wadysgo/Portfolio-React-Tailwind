@@ -15,7 +15,7 @@ export function Sobremi() {
                 cl:w-full
                 sm:w-full
                 '>
-                    <img src="public/multimedia/foto.png" className='w-96 h-96 border border-solid border-red-800 border-8 sombraImagen
+                    <img src="multimedia/fondo1.jpg" className='w-96 h-96 border border-solid border-red-800 border-8 sombraImagen
                     cl:w-28 cl:h-28 cl:border-2 cl:mb-10
                     sm:w-48 sm:h-48 sm:border-2 sm:mb-10 
                     md:w-56 md:h-56
