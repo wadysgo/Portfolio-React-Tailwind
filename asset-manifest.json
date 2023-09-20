@@ -1,14 +1,30 @@
 {
   "files": {
-    "main.css": "/Portfolio-React-Tailwind/static/css/main.47a6a8ce.css",
-    "main.js": "/Portfolio-React-Tailwind/static/js/main.fe3c9eab.js",
-    "static/media/Fondo.jpg": "/Portfolio-React-Tailwind/static/media/Fondo.cd524248fd90dc93d6ee.jpg",
+    "main.css": "/Portfolio-React-Tailwind/static/css/main.086a329b.css",
+    "main.js": "/Portfolio-React-Tailwind/static/js/main.af4269c0.js",
+    "static/media/cv.jpg": "/Portfolio-React-Tailwind/static/media/cv.fe5f1705ab8203609393.jpg",
+    "static/media/Fondo.jpg": "/Portfolio-React-Tailwind/static/media/Fondo.0f2d6e85337c820e292f.jpg",
+    "static/media/jQuery.png": "/Portfolio-React-Tailwind/static/media/jQuery.6bedb2d755f28eb0a2cb.png",
+    "static/media/javascript.png": "/Portfolio-React-Tailwind/static/media/javascript.e087754771abd3526937.png",
+    "static/media/bootstrap.png": "/Portfolio-React-Tailwind/static/media/bootstrap.ca2bd3b63ce84d5327d4.png",
+    "static/media/react.png": "/Portfolio-React-Tailwind/static/media/react.8a6fc0a24a800d1e0f4a.png",
+    "static/media/dbeaver.png": "/Portfolio-React-Tailwind/static/media/dbeaver.56209ac499234010cea3.png",
+    "static/media/php.png": "/Portfolio-React-Tailwind/static/media/php.f03c604824e135a963eb.png",
+    "static/media/yo.jpeg": "/Portfolio-React-Tailwind/static/media/yo.ac6f3b19c7020951043c.jpeg",
+    "static/media/github.png": "/Portfolio-React-Tailwind/static/media/github.abb5df5cb6033db6a886.png",
+    "static/media/html.png": "/Portfolio-React-Tailwind/static/media/html.860d906ddaa16acfecda.png",
+    "static/media/ajax.jpg": "/Portfolio-React-Tailwind/static/media/ajax.33ddf0f95591f8243c19.jpg",
+    "static/media/laravel.png": "/Portfolio-React-Tailwind/static/media/laravel.12ffe688eaea7cac2eba.png",
+    "static/media/css.png": "/Portfolio-React-Tailwind/static/media/css.58dfbebae4a02001b50e.png",
+    "static/media/figma.png": "/Portfolio-React-Tailwind/static/media/figma.925e25e4d469a485faed.png",
+    "static/media/illustrator.png": "/Portfolio-React-Tailwind/static/media/illustrator.8f2cb0953083561a985a.png",
+    "static/media/phppoo.png": "/Portfolio-React-Tailwind/static/media/phppoo.045db1affb9fa2c4ff8f.png",
     "index.html": "/Portfolio-React-Tailwind/index.html",
-    "main.47a6a8ce.css.map": "/Portfolio-React-Tailwind/static/css/main.47a6a8ce.css.map",
-    "main.fe3c9eab.js.map": "/Portfolio-React-Tailwind/static/js/main.fe3c9eab.js.map"
+    "main.086a329b.css.map": "/Portfolio-React-Tailwind/static/css/main.086a329b.css.map",
+    "main.af4269c0.js.map": "/Portfolio-React-Tailwind/static/js/main.af4269c0.js.map"
   },
   "entrypoints": [
-    "static/css/main.47a6a8ce.css",
-    "static/js/main.fe3c9eab.js"
+    "static/css/main.086a329b.css",
+    "static/js/main.af4269c0.js"
   ]
 }
