@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/Portfolio-React-Tailwind/static/css/main.2e42d7c6.css",
-    "main.js": "/Portfolio-React-Tailwind/static/js/main.db06d94c.js",
+    "main.js": "/Portfolio-React-Tailwind/static/js/main.ddebe6d6.js",
     "static/media/cv.jpg": "/Portfolio-React-Tailwind/static/media/cv.fe5f1705ab8203609393.jpg",
     "static/media/Fondo.jpg": "/Portfolio-React-Tailwind/static/media/Fondo.0f2d6e85337c820e292f.jpg",
     "static/media/jQuery.png": "/Portfolio-React-Tailwind/static/media/jQuery.6bedb2d755f28eb0a2cb.png",
     "static/media/javascript.png": "/Portfolio-React-Tailwind/static/media/javascript.e087754771abd3526937.png",
     "static/media/bootstrap.png": "/Portfolio-React-Tailwind/static/media/bootstrap.ca2bd3b63ce84d5327d4.png",
     "static/media/react.png": "/Portfolio-React-Tailwind/static/media/react.8a6fc0a24a800d1e0f4a.png",
+    "static/media/tailwind.png": "/Portfolio-React-Tailwind/static/media/tailwind.3549d9e451d7abb96934.png",
     "static/media/dbeaver.png": "/Portfolio-React-Tailwind/static/media/dbeaver.56209ac499234010cea3.png",
     "static/media/php.png": "/Portfolio-React-Tailwind/static/media/php.f03c604824e135a963eb.png",
     "static/media/yo.jpeg": "/Portfolio-React-Tailwind/static/media/yo.ac6f3b19c7020951043c.jpeg",
@@ -21,10 +22,10 @@
     "static/media/phppoo.png": "/Portfolio-React-Tailwind/static/media/phppoo.045db1affb9fa2c4ff8f.png",
     "index.html": "/Portfolio-React-Tailwind/index.html",
     "main.2e42d7c6.css.map": "/Portfolio-React-Tailwind/static/css/main.2e42d7c6.css.map",
-    "main.db06d94c.js.map": "/Portfolio-React-Tailwind/static/js/main.db06d94c.js.map"
+    "main.ddebe6d6.js.map": "/Portfolio-React-Tailwind/static/js/main.ddebe6d6.js.map"
   },
   "entrypoints": [
     "static/css/main.2e42d7c6.css",
-    "static/js/main.db06d94c.js"
+    "static/js/main.ddebe6d6.js"
   ]
 }
