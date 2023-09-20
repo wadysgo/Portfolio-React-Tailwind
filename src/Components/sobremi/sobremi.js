@@ -42,7 +42,7 @@ export function Sobremi() {
                     sm:mt-5
                     xl:mt-10
                     '>
-                        <a href='' className='sombraTexto text-3xl text-orange-500
+                        <a href='https://wa.link/y6h7yg' className='sombraTexto text-3xl text-orange-500
                         sm:text-4xl
                         md:text-5xl
                         '><i class="fa-brands fa-whatsapp"></i></a>

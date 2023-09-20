@@ -1,7 +1,23 @@
 import { type } from '@testing-library/user-event/dist/type';
 import '../../index.css';
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 export function Contacto() {
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm('service_mq3sp3h', 'template_uivpq2c', form.current, 'N4ObmLcyeKEP-ybQl')
+            .then((result) => {
+                console.log(result.text);
+                alert("¡Enviado Correctamente!.");
+            }, (error) => {
+                console.log(error.text);
+            });
+    };
+
     return (
         <>
             <section id='contacto' className='w-full h-screen flex justify-center items-center'>
@@ -14,32 +30,32 @@ export function Contacto() {
                         <h2 className='text-3xl font-bold sombraTexto text-red-600
                         xl:text-5xl
                         '>Contacto</h2>
-                        <form action='' method='' className='w-full flex justify-center items-center flex-col'>
+                        <form ref={form} onSubmit={sendEmail} className='w-full flex justify-center items-center flex-col'>
                             <div className='flex justify-center items-start flex-col w-4/5 mt-5 mb-5'>
                                 <label for="txtNombreCompleto" className='text-white
                                 
                                 xl:text-2xl
                                 '>Nombre Completo</label>
-                                <input type='text' className='text-white w-full border-0 bg-transparent border-b-2 border-solid border-white focus:border-white' name='txtNombreCompleto' required></input>
+                                <input type='text' className='text-white w-full border-0 bg-transparent border-b-2 border-solid border-white focus:border-white' name='user_name' required></input>
                             </div>
                             <div className='flex justify-center items-start flex-col w-4/5 mt-5 mb-5'>
                                 <label for="txtCorreo" className='text-white
                                 xl:text-2xl
                                 '>Correo Electronico</label>
-                                <input type='text' className='text-white w-full border-0 bg-transparent border-b-2 border-solid border-white focus:border-white' name='txtCorreo' required></input>
+                                <input type='email' className='text-white w-full border-0 bg-transparent border-b-2 border-solid border-white focus:border-white' name='user_email' required></input>
                             </div>
                             <div className='flex justify-center items-start flex-col w-4/5 mt-5 mb-5'>
                                 <label for="txtMensaje" className='text-white
                                 xl:text-2xl
                                 '>Mensaje</label>
-                                <textarea name='txtMensaje' className='text-white resize-none w-full border-0 bg-transparent border-b-2 border-solid border-white focus:border-white'></textarea>
+                                <textarea name='message' required className='text-white resize-none w-full border-0 bg-transparent border-b-2 border-solid border-white focus:border-white'></textarea>
                             </div>
                             <div className='mt-5 mb-5
                             sm:mt-2 sm:mb-2
                             '>
-                                <button type='submit' className='sombraImagen w-28 h-10 bg-orange-500 rounded-full text-white
+                                <input type='submit' value="Send Email" id="button" className='cursor-pointer sombraImagen w-28 h-10 bg-orange-500 rounded-full text-white
                                 sm:w-28
-                                '>Enviar</button>
+                                '></input>
                             </div>
                         </form>
                     </div>

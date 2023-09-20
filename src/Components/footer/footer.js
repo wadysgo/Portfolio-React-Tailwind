@@ -10,7 +10,7 @@ export function Footer() {
                     <span className='text-lg text-white font-extralight'>Linkedin: Diego Benjamin Vallory</span>
                     <span className='text-lg text-white font-extralight'>Github: iBxnja</span>
                     <div className='mt-5'>
-                        <a href='' className='text-3xl text-orange-500
+                        <a href='https://wa.link/y6h7yg' className='text-3xl text-orange-500
                         sm:text-xl 
                         md:text-3xl
                         '><i class="fa-brands fa-whatsapp"></i></a>
@@ -23,7 +23,7 @@ export function Footer() {
                         sm:text-xl sm:ml-10
                         md:text-3xl
                         '><i class="fa-brands fa-github"></i></a>
-                        <a href='' className='text-3xl ml-20 text-orange-500
+                        <a href='https://www.outlook.com/?refd=account.microsoft.com&fref=home.banner.viewinbox' className='text-3xl ml-20 text-orange-500
                         sm:text-xl sm:ml-10
                         md:text-3xl
                         '><i className="fa-solid fa-envelope"></i></a>
