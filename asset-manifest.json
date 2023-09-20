@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio-React-Tailwind/static/css/main.086a329b.css",
-    "main.js": "/Portfolio-React-Tailwind/static/js/main.af4269c0.js",
+    "main.css": "/Portfolio-React-Tailwind/static/css/main.2e42d7c6.css",
+    "main.js": "/Portfolio-React-Tailwind/static/js/main.db06d94c.js",
     "static/media/cv.jpg": "/Portfolio-React-Tailwind/static/media/cv.fe5f1705ab8203609393.jpg",
     "static/media/Fondo.jpg": "/Portfolio-React-Tailwind/static/media/Fondo.0f2d6e85337c820e292f.jpg",
     "static/media/jQuery.png": "/Portfolio-React-Tailwind/static/media/jQuery.6bedb2d755f28eb0a2cb.png",
@@ -20,11 +20,11 @@
     "static/media/illustrator.png": "/Portfolio-React-Tailwind/static/media/illustrator.8f2cb0953083561a985a.png",
     "static/media/phppoo.png": "/Portfolio-React-Tailwind/static/media/phppoo.045db1affb9fa2c4ff8f.png",
     "index.html": "/Portfolio-React-Tailwind/index.html",
-    "main.086a329b.css.map": "/Portfolio-React-Tailwind/static/css/main.086a329b.css.map",
-    "main.af4269c0.js.map": "/Portfolio-React-Tailwind/static/js/main.af4269c0.js.map"
+    "main.2e42d7c6.css.map": "/Portfolio-React-Tailwind/static/css/main.2e42d7c6.css.map",
+    "main.db06d94c.js.map": "/Portfolio-React-Tailwind/static/js/main.db06d94c.js.map"
   },
   "entrypoints": [
-    "static/css/main.086a329b.css",
-    "static/js/main.af4269c0.js"
+    "static/css/main.2e42d7c6.css",
+    "static/js/main.db06d94c.js"
   ]
 }
