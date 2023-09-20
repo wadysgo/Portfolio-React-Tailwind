@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Portfolio-React-Tailwind/static/css/main.47a6a8ce.css",
+    "main.js": "/Portfolio-React-Tailwind/static/js/main.fe3c9eab.js",
+    "static/media/Fondo.jpg": "/Portfolio-React-Tailwind/static/media/Fondo.cd524248fd90dc93d6ee.jpg",
+    "index.html": "/Portfolio-React-Tailwind/index.html",
+    "main.47a6a8ce.css.map": "/Portfolio-React-Tailwind/static/css/main.47a6a8ce.css.map",
+    "main.fe3c9eab.js.map": "/Portfolio-React-Tailwind/static/js/main.fe3c9eab.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.47a6a8ce.css",
+    "static/js/main.fe3c9eab.js"
+  ]
+}
