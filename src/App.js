@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import { Nav } from './Components/nav/nav';
+import  {Inicio}  from './Components/inicio/inicio'
+import {Sobremi} from './Components/sobremi/sobremi'
+import {Tecnologias} from './Components/tecnologias/tecnologias'
+import { Estudios } from './Components/estudios/estudios';
+import { Contacto } from './Components/contacto/contacto';
+import { Footer } from './Components/footer/footer';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import $ from 'jquery';
+
+export function App(){
+    return(
+        <>  
+            <Nav />
+            <Inicio />
+            <Sobremi />
+            <Tecnologias />
+            <Estudios />
+            <Contacto />
+            <Footer />
+        </>
+    )
 }
-
-export default App;
