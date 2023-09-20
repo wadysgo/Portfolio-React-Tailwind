@@ -15,12 +15,12 @@ export function Sobremi() {
                 cl:w-full
                 sm:w-full
                 '>
-                    <img src="multimedia/fondo1.jpg" className='w-96 h-96 border border-solid border-red-800 border-8 sombraImagen
+                    <imgage src="assets/fondo1.jpg" className='w-96 h-96 border border-solid border-red-800 border-8 sombraImagen
                     cl:w-28 cl:h-28 cl:border-2 cl:mb-10
                     sm:w-48 sm:h-48 sm:border-2 sm:mb-10 
                     md:w-56 md:h-56
                     xl:w-96 xl:h-96
-                    '></img>
+                    '></imgage>
                 </div>
                 <div id="sobremi-info" className="w-10/12 flex justify-center items-start flex-col ml-20 text-white
                 cl:m-0 cl:items-center cl:text-center

@@ -17,31 +17,31 @@ export function Tecnologias() {
         '>Lenguajes De Programacion</h2>
         <span className='pb-2 border-b border-white w-full'></span>
         <div className='mt-5 flex justify-center items-center text-center'>
-          <img src='/multimedia/html.png' className='w-14
+          <img src='assets/html.png' className='w-14
           cl:w-6
           sm:w-10
           md:w-12
           xl:w-20
-          '></img>
-          <img src='/multimedia/css.png' className='w-14 ml-20
+          ' />
+          <img src='assets/css.png' className='w-14 ml-20
             cl:w-6 cl:ml-0
             sm:w-10
             md:w-12
             xl:w-20
           '></img>
-          <img src='/multimedia/javascript.png' className='w-14 ml-20
+          <img src='/assets/javascript.png' className='w-14 ml-20
             cl:w-6 cl:ml-0
             sm:w-10 ml-14
             md:w-12
             xl:w-20
           '></img>
-          <img src='/multimedia/php.png' className='w-14 ml-20
+          <img src='/assets/php.png' className='w-14 ml-20
             cl:w-6 cl:ml-0
             sm:w-10 ml-14
             md:w-12
             xl:w-20
           '></img>
-          <img src='/multimedia/phppoo.png' className='w-14 ml-20
+          <img src='/assets/phppoo.png' className='w-14 ml-20
             cl:w-6 cl:ml-0
             sm:w-10 ml-14
             md:w-12
@@ -59,31 +59,31 @@ export function Tecnologias() {
         '>Frameworks y Librerias</h2>
         <span className='pb-2 border-b border-white w-full'></span>
         <div className='mt-5 flex justify-center items-center'>
-          <img src='/multimedia/laravel.png' className='w-14
+          <img src='/assets/laravel.png' className='w-14
           cl:w-6
           sm:w-10
           md:w-12
           xl:w-20
           '></img>
-          <img src='/multimedia/jquery.png' className='w-14 ml-20
+          <img src='/assets/jquery.png' className='w-14 ml-20
           cl:w-6 cl:ml-0
           sm:w-10 ml-14
           md:w-12
           xl:w-20
           '></img>
-          <img src='/multimedia/ajax.png' className='w-14 ml-20
+          <img src='/assets/ajax.png' className='w-14 ml-20
           cl:w-6 cl:ml-0
           sm:w-10 ml-14
           md:w-12
           xl:w-20
           '></img>
-          <img src='/multimedia/bootstrap.png' className='w-14 ml-20
+          <img src='/assets/bootstrap.png' className='w-14 ml-20
           cl:w-6 cl:ml-0
           sm:w-10 ml-14
           md:w-12
           xl:w-20
           '></img>
-          <img src='/multimedia/react.png' className='w-14 ml-20
+          <img src='/assets/react.png' className='w-14 ml-20
           cl:w-6 cl:ml-0
           sm:w-10 ml-14
           md:w-12
@@ -101,31 +101,31 @@ export function Tecnologias() {
         '>Herramientas de diseño, control de versiones y gestion de datos</h2>
         <span className='pb-2 border-b border-white w-full'></span>
         <div className='mt-5 flex justify-center items-center'>
-          <img src='/multimedia/git.png' className='w-14
+          <img src='/assets/git.png' className='w-14
           cl:w-6
           sm:w-10
           md:w-12
           xl:w-20
           '></img>
-          <img src='/multimedia/github.png' className='w-14 ml-20
+          <img src='/assets/github.png' className='w-14 ml-20
           cl:w-6 cl:ml-0
           sm:w-10 ml-14
           md:w-12
           xl:w-20
           '></img>
-          <img src='/multimedia/dbeaver.png' className='w-14 ml-20
+          <img src='/assets/dbeaver.png' className='w-14 ml-20
           cl:w-6 cl:ml-0
           sm:w-10 ml-14
           md:w-12
           xl:w-20
           '></img>
-          <img src='/multimedia/figma.png' className='w-14 ml-20
+          <img src='/assets/figma.png' className='w-14 ml-20
           cl:w-6 cl:ml-0
           sm:w-10 ml-14
           md:w-12
           xl:w-20
           '></img>
-          <img src='/multimedia/illustrator.png' className='w-14 ml-20
+          <img src='/assets/illustrator.png' className='w-14 ml-20
           cl:w-6 cl:ml-0
           sm:w-10 ml-14
           md:w-12

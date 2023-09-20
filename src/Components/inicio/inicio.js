@@ -44,7 +44,7 @@ export function Inicio() {
                     '>Programador Full Stack Junior</h6>
 
 
-                    <a href="/multimedia/Cv.jpg" download="Cv.jpg" className='ml-2
+                    <a href="/asse/Cv.jpg" download="Cv.jpg" className='ml-2
                     cl:m-0
                     sm:m-0
                     '>
