@@ -22,7 +22,7 @@ body{
     height: 567px;
 }
 .sombraTexto{
-    text-shadow: 0 2px 3px black;
+    text-shadow: 0 1px 2px black;
 }
 .sombraImagen{
     box-shadow: 0 2px 10px black;

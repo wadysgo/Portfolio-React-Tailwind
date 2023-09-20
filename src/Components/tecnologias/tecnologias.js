@@ -14,6 +14,7 @@ import bootstrap from '../../assets/bootstrap.png'
 import github from '../../assets/github.png'
 import git from '../../assets/Git.png'
 import dbeaver from '../../assets/dbeaver.png'
+import tailwind from '../../assets/tailwind.png'
 
 export function Tecnologias() {
 
@@ -99,6 +100,12 @@ export function Tecnologias() {
             xl:w-20
           '></img>
           <img src={react} className='w-14 ml-20
+            cl:w-6 cl:ml-5
+            sm:w-10 sm:ml-14
+            md:w-12
+            xl:w-20
+          '></img>
+          <img src={tailwind} className='w-14 ml-20
             cl:w-6 cl:ml-5
             sm:w-10 sm:ml-14
             md:w-12
