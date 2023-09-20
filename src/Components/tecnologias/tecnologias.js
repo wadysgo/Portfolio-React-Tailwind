@@ -1,4 +1,19 @@
 import '../../index.css';
+import html from '../../assets/html.png'
+import css from '../../assets/css.png'
+import php from '../../assets/php.png'
+import phppoo from '../../assets/phppoo.png'
+import javascript from '../../assets/javascript.png'
+import laravel from '../../assets/laravel.png'
+import react from '../../assets/react.png'
+import jquery from '../../assets/jQuery.png'
+import ajax from '../../assets/ajax.jpg'
+import figma from '../../assets/figma.png'
+import illustrator from '../../assets/illustrator.png'
+import bootstrap from '../../assets/bootstrap.png'
+import github from '../../assets/github.png'
+import git from '../../assets/Git.png'
+import dbeaver from '../../assets/dbeaver.png'
 
 export function Tecnologias() {
 
@@ -17,33 +32,33 @@ export function Tecnologias() {
         '>Lenguajes De Programacion</h2>
         <span className='pb-2 border-b border-white w-full'></span>
         <div className='mt-5 flex justify-center items-center text-center'>
-          <img src='assets/html.png' className='w-14
+          <img src={html} className='w-14
           cl:w-6
           sm:w-10
           md:w-12
           xl:w-20
           ' />
-          <img src='assets/css.png' className='w-14 ml-20
-            cl:w-6 cl:ml-0
-            sm:w-10
+          <img src={css} className='w-14 ml-20
+            cl:w-6 cl:ml-5
+            sm:w-10 sm:ml-14
             md:w-12
             xl:w-20
           '></img>
-          <img src='/assets/javascript.png' className='w-14 ml-20
-            cl:w-6 cl:ml-0
-            sm:w-10 ml-14
+          <img src={php} className='w-14 ml-20
+            cl:w-6 cl:ml-5
+            sm:w-10 sm:ml-14
             md:w-12
             xl:w-20
           '></img>
-          <img src='/assets/php.png' className='w-14 ml-20
-            cl:w-6 cl:ml-0
-            sm:w-10 ml-14
+          <img src={phppoo} className='w-14 ml-20
+            cl:w-6 cl:ml-5
+            sm:w-10 sm:ml-14
             md:w-12
             xl:w-20
           '></img>
-          <img src='/assets/phppoo.png' className='w-14 ml-20
-            cl:w-6 cl:ml-0
-            sm:w-10 ml-14
+          <img src={javascript} className='w-14 ml-20
+            cl:w-6 cl:ml-5
+            sm:w-10 sm:ml-14
             md:w-12
             xl:w-20
           '></img>
@@ -59,35 +74,35 @@ export function Tecnologias() {
         '>Frameworks y Librerias</h2>
         <span className='pb-2 border-b border-white w-full'></span>
         <div className='mt-5 flex justify-center items-center'>
-          <img src='/assets/laravel.png' className='w-14
+          <img src={laravel} className='w-14
           cl:w-6
           sm:w-10
           md:w-12
           xl:w-20
           '></img>
-          <img src='/assets/jquery.png' className='w-14 ml-20
-          cl:w-6 cl:ml-0
-          sm:w-10 ml-14
-          md:w-12
-          xl:w-20
+          <img src={jquery} className='w-14 ml-20
+            cl:w-6 cl:ml-5
+            sm:w-10 sm:ml-14
+            md:w-12
+            xl:w-20
           '></img>
-          <img src='/assets/ajax.png' className='w-14 ml-20
-          cl:w-6 cl:ml-0
-          sm:w-10 ml-14
-          md:w-12
-          xl:w-20
+          <img src={ajax} className='w-14 ml-20
+            cl:w-6 cl:ml-5
+            sm:w-10 sm:ml-14
+            md:w-12
+            xl:w-20
           '></img>
-          <img src='/assets/bootstrap.png' className='w-14 ml-20
-          cl:w-6 cl:ml-0
-          sm:w-10 ml-14
-          md:w-12
-          xl:w-20
+          <img src={bootstrap} className='w-14 ml-20
+            cl:w-6 cl:ml-5
+            sm:w-10 sm:ml-14
+            md:w-12
+            xl:w-20
           '></img>
-          <img src='/assets/react.png' className='w-14 ml-20
-          cl:w-6 cl:ml-0
-          sm:w-10 ml-14
-          md:w-12
-          xl:w-20
+          <img src={react} className='w-14 ml-20
+            cl:w-6 cl:ml-5
+            sm:w-10 sm:ml-14
+            md:w-12
+            xl:w-20
           '></img>
         </div>
       </div>
@@ -101,35 +116,35 @@ export function Tecnologias() {
         '>Herramientas de diseño, control de versiones y gestion de datos</h2>
         <span className='pb-2 border-b border-white w-full'></span>
         <div className='mt-5 flex justify-center items-center'>
-          <img src='/assets/git.png' className='w-14
+          <img src={git} className='w-14
           cl:w-6
           sm:w-10
           md:w-12
           xl:w-20
           '></img>
-          <img src='/assets/github.png' className='w-14 ml-20
-          cl:w-6 cl:ml-0
-          sm:w-10 ml-14
-          md:w-12
-          xl:w-20
+          <img src={github} className='w-14 ml-20
+            cl:w-6 cl:ml-5
+            sm:w-10 sm:ml-14
+            md:w-12
+            xl:w-20
           '></img>
-          <img src='/assets/dbeaver.png' className='w-14 ml-20
-          cl:w-6 cl:ml-0
-          sm:w-10 ml-14
-          md:w-12
-          xl:w-20
+          <img src={dbeaver} className='w-14 ml-20
+            cl:w-6 cl:ml-5
+            sm:w-10 sm:ml-14
+            md:w-12
+            xl:w-20
           '></img>
-          <img src='/assets/figma.png' className='w-14 ml-20
-          cl:w-6 cl:ml-0
-          sm:w-10 ml-14
-          md:w-12
-          xl:w-20
+          <img src={figma} className='w-14 ml-20
+            cl:w-6 cl:ml-5
+            sm:w-10 sm:ml-14
+            md:w-12
+            xl:w-20
           '></img>
-          <img src='/assets/illustrator.png' className='w-14 ml-20
-          cl:w-6 cl:ml-0
-          sm:w-10 ml-14
-          md:w-12
-          xl:w-20
+          <img src={illustrator} className='w-14 ml-20
+            cl:w-6 cl:ml-5
+            sm:w-10 sm:ml-14
+            md:w-12
+            xl:w-20
           '></img>
         </div>
       </div>

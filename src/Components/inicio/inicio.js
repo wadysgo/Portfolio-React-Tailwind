@@ -1,11 +1,11 @@
 import '../../index.css'
-
+import cv from '../../assets/cv.jpg'
 
 export function Inicio() {
     return <>
 
         <section id='inicio' className='w-full flex justify-center items-center
-        cl:w-full cl:h-full
+        cl:w-full cl:h-full cl:mt-20
         sm:w-full sm:h-screen
         md:w-full md:h-screen
         xl:w-full xl:flex xl:justify-center xl:items-center xl:h-full
@@ -44,7 +44,7 @@ export function Inicio() {
                     '>Programador Full Stack Junior</h6>
 
 
-                    <a href="/asse/Cv.jpg" download="Cv.jpg" className='ml-2
+                    <a href={cv} download="Cv.jpg" className='ml-2
                     cl:m-0
                     sm:m-0
                     '>
@@ -61,7 +61,7 @@ export function Inicio() {
                 cl:flex-col
                 sm:flex-col
                 md:w-2/3
-                xl:flex-row xl:m-0 xl:inicio-extra xl:w-11/12 xl:flex xl:justify-center xl:items-center xl:flex-col xl:text-white xl:text-center
+                 xl:m-0 xl:inicio-extra xl:w-11/12 xl:flex xl:justify-center xl:items-center xl:flex-col xl:text-white xl:text-center
                 '>
 
                     <h4 className='text-sm font-medium text-orange-500 pl-14 sombraTexto
